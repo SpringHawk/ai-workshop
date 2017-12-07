@@ -76,3 +76,20 @@ def doubleArrayShuffle(array1, array2, shuffle_Iterations=5):
 # (Testing)
 
 # Save It !
+
+# Count lines of rtf files
+file1 = open('GoMovesWhite.rtf')
+num_lines1 = len(file1.readlines())
+print(str(num_lines1))
+
+file2 = open('GoMovesBlack.rtf')
+num_lines2 = len(file2.readlines())
+print(str(num_lines2))
+
+file3 = open('GoEmplacemantsWhite.rtf')
+num_lines3 len(file3.readlines())
+print(str(num_lines3))
+
+file4 = open('GoEmplacemantsBlack.rtf')
+num_lines4 = len(file4.readlines())
+print(str(num_lines4))
